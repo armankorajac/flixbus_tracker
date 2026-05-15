@@ -1,4 +1,8 @@
-import os
+import os, sys
+
+from pathlib import Path # Path is very nice for handling file paths in a cross-platform way - not to have absolute paths around in the code!
+
+sys.path.append(str(Path().resolve().parent))
 
 from dotenv import load_dotenv
 
@@ -16,3 +20,6 @@ STATIONS = {
     "milan_lampugnano": "dcbc484a-9603-11e6-9066-549f350fcb0c",
     "napoli_centrale": "dcc19a38-9603-11e6-9066-549f350fcb0c",
 }
+
+RAW_DATA_DIR = Path().resolve().parent / "data" / "raw"
+PROCESSED_DATA_DIR = Path().resolve().parent / "data" / "processed"
