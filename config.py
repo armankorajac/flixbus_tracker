@@ -9,6 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 API_KEY = os.getenv("FLIXBUS_API_KEY")
+BASE_URL="https://global.api.flixbus.com"
 
 #The unique IDs of the stations that we want to track.
 #Note that in the files the stations, buses and routes are identified by unique IDs. 
