@@ -1,1 +1,5 @@
 A little project that I am doing about some delay statistics of certain Flixbus lines in Italy.
+Important notice: The limits (-1, +4) are to be treated in the following way: 
+Our code, at a given snapshot time t, will in one .json file pick up information about the rides WITH THE SCHEDULED DEPARTURE, from THE GIVEN STATION, between t - 1 and t + 4. 
+So, for example, the scheduled departure of a bus is 14:30. Let's say we are snapshoting at 16:00. If the bus is late for 1.5h, that means that the .json file will have information about the rides with SCHEDULED departures between (15:00, 20:00). However, this means that it will not pick up the information about the bus 14:30, although it is late, and the information is needed. That's how the Flixbus timetable works.
+Therefore, enhance this domain.
