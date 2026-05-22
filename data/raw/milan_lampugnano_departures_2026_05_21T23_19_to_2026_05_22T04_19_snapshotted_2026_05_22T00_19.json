@@ -1,0 +1,3840 @@
+{
+    "rides": [
+        {
+            "id": "d75414ed-5b6c-4697-b0bc-44c2a611c6a7",
+            "status": {
+                "segment": null,
+                "next_stop_sequence": null,
+                "has_arrived_at_next_stop": false,
+                "progress": null,
+                "deviation": {
+                    "deviation_timestamp": "2026-05-21T23:53:01Z",
+                    "deviation_seconds": 2281,
+                    "reason": null,
+                    "deviation_class": "LATE",
+                    "deviation_type": "ESTIMATED",
+                    "updated_at": "2026-05-21T22:21:03Z"
+                },
+                "scheduled_timestamp": "2026-05-21T23:15:00Z"
+            },
+            "platform": null,
+            "line": {
+                "code": "N728",
+                "direction": "Munich central bus station",
+                "name": "Munich/Genoa - Barcelona",
+                "trip_number": 3,
+                "means_of_transport": "BUS",
+                "brand": {
+                    "id": "a18f138c-68fa-4b45-a42f-adb0378e10d3",
+                    "name": "FlixBus"
+                }
+            },
+            "location": null,
+            "calls": [
+                {
+                    "sequence": 1,
+                    "stop": {
+                        "id": "dcc34bb9-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Madrid",
+                        "name": "Barcelona (Bus Terminal Nord)",
+                        "description": "We remind all passengers that it is their responsibility to review all the mobility restriction measures established by the different Public Authorities and having available all the compulsory documentation currently in force on the date of departure in order to make international trips.",
+                        "city": {
+                            "id": "40e086ed-8646-11e6-9066-549f350fcb0c",
+                            "name": "Barcelona"
+                        },
+                        "code": "BAC",
+                        "location": {
+                            "latitude": 41.394181,
+                            "longitude": 2.182959
+                        }
+                    },
+                    "arrival": null,
+                    "departure": {
+                        "scheduled": "2026-05-21T07:45:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 2,
+                    "stop": {
+                        "id": "dcc0b9bc-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Paris",
+                        "name": "Montpellier (Sabines)",
+                        "description": "",
+                        "city": {
+                            "id": "40df980f-8646-11e6-9066-549f350fcb0c",
+                            "name": "Montpellier"
+                        },
+                        "code": "MTP",
+                        "location": {
+                            "latitude": 43.583932,
+                            "longitude": 3.860233
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-21T12:40:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-21T12:50:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 3,
+                    "stop": {
+                        "id": "dcc2e206-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Paris",
+                        "name": "Marseille (Saint-Charles)",
+                        "description": "Platforms 1 and 2 and sometimes platform 3.",
+                        "city": {
+                            "id": "40df8e99-8646-11e6-9066-549f350fcb0c",
+                            "name": "Marseille"
+                        },
+                        "code": "MAA",
+                        "location": {
+                            "latitude": 43.304081,
+                            "longitude": 5.37999
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-21T15:00:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-21T15:10:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 4,
+                    "stop": {
+                        "id": "64f3ab00-d8a7-442f-91f9-ff62cdd55349",
+                        "type": "BUS",
+                        "timezone": "Europe/Paris",
+                        "name": "Cannes (Le Cannet)",
+                        "description": "The stop is located in Le Cannet, next to the city of Cannes. \nPlace B\u00e9nidorm, in front of the ESSO gas station.",
+                        "city": {
+                            "id": "40e0010f-8646-11e6-9066-549f350fcb0c",
+                            "name": "Cannes"
+                        },
+                        "code": "CNN",
+                        "location": {
+                            "latitude": 43.570867,
+                            "longitude": 7.014662
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-21T17:20:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-21T17:25:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 5,
+                    "stop": {
+                        "id": "c3996d55-4fc0-40ae-8fe2-62b3d07fd0d7",
+                        "type": "BUS",
+                        "timezone": "Europe/Paris",
+                        "name": "Nice Airport (Bus Station - Terminal 1)",
+                        "description": "Bus station Terminal 1, platforms 8, 9 & 10",
+                        "city": {
+                            "id": "40e13a46-8646-11e6-9066-549f350fcb0c",
+                            "name": "Nice"
+                        },
+                        "code": "NIT",
+                        "location": {
+                            "latitude": 43.664817,
+                            "longitude": 7.209588
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-21T17:50:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-21T18:00:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 6,
+                    "stop": {
+                        "id": "dcc02ea8-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Genoa (Fanti d'Italia/Principe bus station)",
+                        "description": "",
+                        "city": {
+                            "id": "40df4521-8646-11e6-9066-549f350fcb0c",
+                            "name": "Genoa"
+                        },
+                        "code": "GNF",
+                        "location": {
+                            "latitude": 44.41599,
+                            "longitude": 8.919045
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-21T20:55:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-21T21:05:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 7,
+                    "stop": {
+                        "id": "dcbc484a-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Milan (Lampugnano bus station)",
+                        "description": "Platform B",
+                        "city": {
+                            "id": "40ddcc6e-8646-11e6-9066-549f350fcb0c",
+                            "name": "Milan"
+                        },
+                        "code": "MIO",
+                        "location": {
+                            "latitude": 45.489719,
+                            "longitude": 9.127528
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-21T23:05:00Z",
+                        "deviation": {
+                            "deviation_timestamp": "2026-05-21T23:53:01Z",
+                            "deviation_seconds": 2881,
+                            "reason": null,
+                            "deviation_class": "LATE",
+                            "deviation_type": "ESTIMATED",
+                            "updated_at": "2026-05-21T22:21:03Z"
+                        },
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-21T23:15:00Z",
+                        "deviation": {
+                            "deviation_timestamp": "2026-05-21T23:53:01Z",
+                            "deviation_seconds": 2281,
+                            "reason": null,
+                            "deviation_class": "LATE",
+                            "deviation_type": "ESTIMATED",
+                            "updated_at": "2026-05-21T22:21:03Z"
+                        },
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 8,
+                    "stop": {
+                        "id": "dcbabbfa-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Berlin",
+                        "name": "Munich central bus station",
+                        "description": "Gate information available here: https://www.zob-busbahnhof-muenchen.de/en/",
+                        "city": {
+                            "id": "40d901a5-8646-11e6-9066-549f350fcb0c",
+                            "name": "Munich"
+                        },
+                        "code": "M",
+                        "location": {
+                            "latitude": 48.14248,
+                            "longitude": 11.55001
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T06:10:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": null
+                }
+            ],
+            "vehicle": {
+                "id": "a169e010-3cf4-4bfe-acc7-8a4ab6a44242",
+                "license_plate": null,
+                "type": "BUS"
+            }
+        },
+        {
+            "id": "5d04dbb6-0a25-45f8-8f8f-0b10b7bd1d17",
+            "status": {
+                "segment": null,
+                "next_stop_sequence": null,
+                "has_arrived_at_next_stop": false,
+                "progress": null,
+                "deviation": {
+                    "deviation_timestamp": "2026-05-22T00:25:00Z",
+                    "deviation_seconds": 0,
+                    "reason": null,
+                    "deviation_class": "ON_TIME",
+                    "deviation_type": "ESTIMATED",
+                    "updated_at": "2026-05-21T22:17:05Z"
+                },
+                "scheduled_timestamp": "2026-05-22T00:25:00Z"
+            },
+            "platform": null,
+            "line": {
+                "code": "N524",
+                "direction": "Rome Tiburtina Bus station",
+                "name": "Basel - Rome",
+                "trip_number": 2,
+                "means_of_transport": "BUS",
+                "brand": {
+                    "id": "a18f138c-68fa-4b45-a42f-adb0378e10d3",
+                    "name": "FlixBus"
+                }
+            },
+            "location": null,
+            "calls": [
+                {
+                    "sequence": 1,
+                    "stop": {
+                        "id": "dcbc827f-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Zurich",
+                        "name": "Basel SBB (Meret Oppenheim-Street)",
+                        "description": "",
+                        "city": {
+                            "id": "40de3026-8646-11e6-9066-549f350fcb0c",
+                            "name": "Basel"
+                        },
+                        "code": "BAS",
+                        "location": {
+                            "latitude": 47.545639,
+                            "longitude": 7.59025
+                        }
+                    },
+                    "arrival": null,
+                    "departure": {
+                        "scheduled": "2026-05-21T19:00:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 2,
+                    "stop": {
+                        "id": "dcbab299-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Zurich",
+                        "name": "Zurich Bus Station",
+                        "description": "",
+                        "city": {
+                            "id": "40d8fa3c-8646-11e6-9066-549f350fcb0c",
+                            "name": "Zurich"
+                        },
+                        "code": "ZH",
+                        "location": {
+                            "latitude": 47.380855,
+                            "longitude": 8.537436
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-21T20:10:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-21T20:15:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 3,
+                    "stop": {
+                        "id": "dcbc484a-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Milan (Lampugnano bus station)",
+                        "description": "Platform B",
+                        "city": {
+                            "id": "40ddcc6e-8646-11e6-9066-549f350fcb0c",
+                            "name": "Milan"
+                        },
+                        "code": "MIO",
+                        "location": {
+                            "latitude": 45.489719,
+                            "longitude": 9.127528
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T00:15:00Z",
+                        "deviation": {
+                            "deviation_timestamp": "2026-05-22T00:16:01Z",
+                            "deviation_seconds": 61,
+                            "reason": null,
+                            "deviation_class": "ON_TIME",
+                            "deviation_type": "ESTIMATED",
+                            "updated_at": "2026-05-21T22:17:05Z"
+                        },
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T00:25:00Z",
+                        "deviation": {
+                            "deviation_timestamp": "2026-05-22T00:25:00Z",
+                            "deviation_seconds": 0,
+                            "reason": null,
+                            "deviation_class": "ON_TIME",
+                            "deviation_type": "ESTIMATED",
+                            "updated_at": "2026-05-21T22:17:05Z"
+                        },
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 4,
+                    "stop": {
+                        "id": "dcc03216-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Bologna (central bus station)",
+                        "description": "",
+                        "city": {
+                            "id": "40df3653-8646-11e6-9066-549f350fcb0c",
+                            "name": "Bologna"
+                        },
+                        "code": "BOL",
+                        "location": {
+                            "latitude": 44.50399,
+                            "longitude": 11.346852
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T03:05:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T03:15:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 5,
+                    "stop": {
+                        "id": "dcbcdfc1-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Florence (Villa Costanza)",
+                        "description": "Passengers with interconnection tickets must get off at Villa Costanza",
+                        "city": {
+                            "id": "40de71c6-8646-11e6-9066-549f350fcb0c",
+                            "name": "Florence"
+                        },
+                        "code": "FIV",
+                        "location": {
+                            "latitude": 43.755014,
+                            "longitude": 11.172638
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T04:35:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T04:45:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 6,
+                    "stop": {
+                        "id": "dcbd9538-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Rome Tiburtina Bus station",
+                        "description": "",
+                        "city": {
+                            "id": "40de90ff-8646-11e6-9066-549f350fcb0c",
+                            "name": "Rome"
+                        },
+                        "code": "ROM",
+                        "location": {
+                            "latitude": 41.909362,
+                            "longitude": 12.528317
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T08:00:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": null
+                }
+            ],
+            "vehicle": {
+                "id": "2c989921-8064-4cdd-9e9e-17c1d915d0e9",
+                "license_plate": null,
+                "type": "BUS"
+            }
+        },
+        {
+            "id": "7f0b9117-00fa-41aa-98fd-47a5f3abbb49",
+            "status": {
+                "segment": null,
+                "next_stop_sequence": null,
+                "has_arrived_at_next_stop": null,
+                "progress": null,
+                "deviation": null,
+                "scheduled_timestamp": "2026-05-22T00:30:00Z"
+            },
+            "platform": null,
+            "line": {
+                "code": "[S2S059]",
+                "direction": "Como",
+                "name": "[TICKET] S2S_059 BGY-CO",
+                "trip_number": 1,
+                "means_of_transport": "BUS",
+                "brand": {
+                    "id": "97c9cbea-8e42-44ad-90ec-6db4b9545ed5",
+                    "name": "Flibco"
+                }
+            },
+            "location": null,
+            "calls": [
+                {
+                    "sequence": 1,
+                    "stop": {
+                        "id": "dcc45a6f-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Bergamo (Orio al Serio Airport - BGY)",
+                        "description": "Platform 6\nATTENTION for the following lines: \nLine K350 (operated by Orio Shuttle) will depart from platform 2,3,4 (direction Milan Centrale) \nLine K358 (operated by Orio Shuttle/Locatelli) will depart from platform 7 (direction Malpensa)\nLine CIT3146 (Livigno Express) bus stop in front of exit 3",
+                        "city": {
+                            "id": "e66b26bd-758d-4c59-ad1f-eddf72800f3e",
+                            "name": "Bergamo Orio al Serio Airport"
+                        },
+                        "code": "BGY",
+                        "location": {
+                            "latitude": 45.665814,
+                            "longitude": 9.697448
+                        }
+                    },
+                    "arrival": null,
+                    "departure": {
+                        "scheduled": "2026-05-21T23:45:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 2,
+                    "stop": {
+                        "id": "dcbc484a-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Milan (Lampugnano bus station)",
+                        "description": "Platform B",
+                        "city": {
+                            "id": "40ddcc6e-8646-11e6-9066-549f350fcb0c",
+                            "name": "Milan"
+                        },
+                        "code": "MIO",
+                        "location": {
+                            "latitude": 45.489719,
+                            "longitude": 9.127528
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T00:25:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T00:30:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 3,
+                    "stop": {
+                        "id": "6121b860-5df7-4e13-9fac-e1d7c08e13ce",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Como Grandate",
+                        "description": "",
+                        "city": {
+                            "id": "dd129ead-912c-4052-8e6a-cd441c14d0b6",
+                            "name": "Como"
+                        },
+                        "code": "COM",
+                        "location": {
+                            "latitude": 45.782123,
+                            "longitude": 9.054153
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T01:00:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T01:05:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 4,
+                    "stop": {
+                        "id": "ffef7a6f-c7b7-4576-88ba-6a73770f0ac9",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Como",
+                        "description": "",
+                        "city": {
+                            "id": "dd129ead-912c-4052-8e6a-cd441c14d0b6",
+                            "name": "Como"
+                        },
+                        "code": "CMO",
+                        "location": {
+                            "latitude": 45.80898,
+                            "longitude": 9.073305
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T01:15:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": null
+                }
+            ],
+            "vehicle": null
+        },
+        {
+            "id": "5f1fde02-3e3f-4bde-b608-ec32660f89aa",
+            "status": {
+                "segment": null,
+                "next_stop_sequence": null,
+                "has_arrived_at_next_stop": false,
+                "progress": null,
+                "deviation": {
+                    "deviation_timestamp": "2026-05-22T00:50:00Z",
+                    "deviation_seconds": 0,
+                    "reason": null,
+                    "deviation_class": "ON_TIME",
+                    "deviation_type": "ESTIMATED",
+                    "updated_at": "2026-05-21T22:16:19Z"
+                },
+                "scheduled_timestamp": "2026-05-22T00:50:00Z"
+            },
+            "platform": null,
+            "line": {
+                "code": "N405",
+                "direction": "Venice (Tronchetto)",
+                "name": "Geneve - Turin - Venice",
+                "trip_number": 4,
+                "means_of_transport": "BUS",
+                "brand": {
+                    "id": "a18f138c-68fa-4b45-a42f-adb0378e10d3",
+                    "name": "FlixBus"
+                }
+            },
+            "location": null,
+            "calls": [
+                {
+                    "sequence": 1,
+                    "stop": {
+                        "id": "dcc0627e-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Zurich",
+                        "name": "Geneva (central bus station)",
+                        "description": "",
+                        "city": {
+                            "id": "40df585b-8646-11e6-9066-549f350fcb0c",
+                            "name": "Geneva"
+                        },
+                        "code": "GEN",
+                        "location": {
+                            "latitude": 46.20852221638026,
+                            "longitude": 6.1469282144707
+                        }
+                    },
+                    "arrival": null,
+                    "departure": {
+                        "scheduled": "2026-05-21T18:45:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 2,
+                    "stop": {
+                        "id": "dcbfe731-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Turin (Vittorio Emanuele)",
+                        "description": "",
+                        "city": {
+                            "id": "40deee02-8646-11e6-9066-549f350fcb0c",
+                            "name": "Turin"
+                        },
+                        "code": "TO",
+                        "location": {
+                            "latitude": 45.07016,
+                            "longitude": 7.657706
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-21T22:45:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-21T22:55:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 3,
+                    "stop": {
+                        "id": "dcbc484a-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Milan (Lampugnano bus station)",
+                        "description": "Platform B",
+                        "city": {
+                            "id": "40ddcc6e-8646-11e6-9066-549f350fcb0c",
+                            "name": "Milan"
+                        },
+                        "code": "MIO",
+                        "location": {
+                            "latitude": 45.489719,
+                            "longitude": 9.127528
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T00:40:00Z",
+                        "deviation": {
+                            "deviation_timestamp": "2026-05-21T23:40:18Z",
+                            "deviation_seconds": -3582,
+                            "reason": null,
+                            "deviation_class": "EARLY",
+                            "deviation_type": "ESTIMATED",
+                            "updated_at": "2026-05-21T22:16:19Z"
+                        },
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T00:50:00Z",
+                        "deviation": {
+                            "deviation_timestamp": "2026-05-22T00:50:00Z",
+                            "deviation_seconds": 0,
+                            "reason": null,
+                            "deviation_class": "ON_TIME",
+                            "deviation_type": "ESTIMATED",
+                            "updated_at": "2026-05-21T22:16:19Z"
+                        },
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 4,
+                    "stop": {
+                        "id": "dcc45a6f-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Bergamo (Orio al Serio Airport - BGY)",
+                        "description": "Platform 6\nATTENTION for the following lines: \nLine K350 (operated by Orio Shuttle) will depart from platform 2,3,4 (direction Milan Centrale) \nLine K358 (operated by Orio Shuttle/Locatelli) will depart from platform 7 (direction Malpensa)\nLine CIT3146 (Livigno Express) bus stop in front of exit 3",
+                        "city": {
+                            "id": "e66b26bd-758d-4c59-ad1f-eddf72800f3e",
+                            "name": "Bergamo Orio al Serio Airport"
+                        },
+                        "code": "BGY",
+                        "location": {
+                            "latitude": 45.665814,
+                            "longitude": 9.697448
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T01:40:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T01:45:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 5,
+                    "stop": {
+                        "id": "dcbdb0fa-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Verona (Porta Nuova)",
+                        "description": "",
+                        "city": {
+                            "id": "40dea1ff-8646-11e6-9066-549f350fcb0c",
+                            "name": "Verona"
+                        },
+                        "code": "VR",
+                        "location": {
+                            "latitude": 45.431548,
+                            "longitude": 10.980957
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T03:10:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T03:15:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 6,
+                    "stop": {
+                        "id": "dcbd8a4d-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Padua",
+                        "description": "",
+                        "city": {
+                            "id": "40de8868-8646-11e6-9066-549f350fcb0c",
+                            "name": "Padua"
+                        },
+                        "code": "PAD",
+                        "location": {
+                            "latitude": 45.418751,
+                            "longitude": 11.873498
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T04:20:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T04:25:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 7,
+                    "stop": {
+                        "id": "dcc0139d-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Venice Mestre (Stazione FS)",
+                        "description": "ATTENTION!\nLine CIT3158 operated by ATVO (direction Cortina) departs from ATVO stop, 50 meters to the right from Flixbus stop. Line CIT3177 operated by Barzi (direction Treviso Airport) departs from Barzi stop, in Viale della Stazione 22/24 in front of Enjoy Bar/Hotel Plaza - Stop C4",
+                        "city": {
+                            "id": "40dea03b-8646-11e6-9066-549f350fcb0c",
+                            "name": "Venice"
+                        },
+                        "code": "MTR",
+                        "location": {
+                            "latitude": 45.482223,
+                            "longitude": 12.233842
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T04:55:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T05:00:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 8,
+                    "stop": {
+                        "id": "dcbdacd2-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Venice (Tronchetto)",
+                        "description": "",
+                        "city": {
+                            "id": "40dea03b-8646-11e6-9066-549f350fcb0c",
+                            "name": "Venice"
+                        },
+                        "code": "VE",
+                        "location": {
+                            "latitude": 45.441978,
+                            "longitude": 12.30798
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T05:15:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": null
+                }
+            ],
+            "vehicle": {
+                "id": "a56c6225-d9f6-462c-a4f4-d8cedc51f772",
+                "license_plate": null,
+                "type": "BUS"
+            }
+        },
+        {
+            "id": "8170b0b5-7b2b-4fa6-a548-934b3ac89b54",
+            "status": {
+                "segment": null,
+                "next_stop_sequence": null,
+                "has_arrived_at_next_stop": false,
+                "progress": null,
+                "deviation": {
+                    "deviation_timestamp": "2026-05-22T02:10:44Z",
+                    "deviation_seconds": 4244,
+                    "reason": null,
+                    "deviation_class": "LATE",
+                    "deviation_type": "ESTIMATED",
+                    "updated_at": "2026-05-21T22:16:23Z"
+                },
+                "scheduled_timestamp": "2026-05-22T01:00:00Z"
+            },
+            "platform": null,
+            "line": {
+                "code": "N728",
+                "direction": "Barcelona (Bus Terminal Nord)",
+                "name": "Munich/Genoa - Barcelona",
+                "trip_number": 4,
+                "means_of_transport": "BUS",
+                "brand": {
+                    "id": "a18f138c-68fa-4b45-a42f-adb0378e10d3",
+                    "name": "FlixBus"
+                }
+            },
+            "location": null,
+            "calls": [
+                {
+                    "sequence": 1,
+                    "stop": {
+                        "id": "dcbabbfa-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Berlin",
+                        "name": "Munich central bus station",
+                        "description": "Gate information available here: https://www.zob-busbahnhof-muenchen.de/en/",
+                        "city": {
+                            "id": "40d901a5-8646-11e6-9066-549f350fcb0c",
+                            "name": "Munich"
+                        },
+                        "code": "M",
+                        "location": {
+                            "latitude": 48.14248,
+                            "longitude": 11.55001
+                        }
+                    },
+                    "arrival": null,
+                    "departure": {
+                        "scheduled": "2026-05-21T18:15:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 2,
+                    "stop": {
+                        "id": "dcbc484a-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Milan (Lampugnano bus station)",
+                        "description": "Platform B",
+                        "city": {
+                            "id": "40ddcc6e-8646-11e6-9066-549f350fcb0c",
+                            "name": "Milan"
+                        },
+                        "code": "MIO",
+                        "location": {
+                            "latitude": 45.489719,
+                            "longitude": 9.127528
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T00:50:00Z",
+                        "deviation": {
+                            "deviation_timestamp": "2026-05-22T02:10:44Z",
+                            "deviation_seconds": 4844,
+                            "reason": null,
+                            "deviation_class": "LATE",
+                            "deviation_type": "ESTIMATED",
+                            "updated_at": "2026-05-21T22:16:23Z"
+                        },
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T01:00:00Z",
+                        "deviation": {
+                            "deviation_timestamp": "2026-05-22T02:10:44Z",
+                            "deviation_seconds": 4244,
+                            "reason": null,
+                            "deviation_class": "LATE",
+                            "deviation_type": "ESTIMATED",
+                            "updated_at": "2026-05-21T22:16:23Z"
+                        },
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 3,
+                    "stop": {
+                        "id": "dcc02ea8-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Genoa (Fanti d'Italia/Principe bus station)",
+                        "description": "",
+                        "city": {
+                            "id": "40df4521-8646-11e6-9066-549f350fcb0c",
+                            "name": "Genoa"
+                        },
+                        "code": "GNF",
+                        "location": {
+                            "latitude": 44.41599,
+                            "longitude": 8.919045
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T03:10:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T03:15:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 4,
+                    "stop": {
+                        "id": "c3996d55-4fc0-40ae-8fe2-62b3d07fd0d7",
+                        "type": "BUS",
+                        "timezone": "Europe/Paris",
+                        "name": "Nice Airport (Bus Station - Terminal 1)",
+                        "description": "Bus station Terminal 1, platforms 8, 9 & 10",
+                        "city": {
+                            "id": "40e13a46-8646-11e6-9066-549f350fcb0c",
+                            "name": "Nice"
+                        },
+                        "code": "NIT",
+                        "location": {
+                            "latitude": 43.664817,
+                            "longitude": 7.209588
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T06:05:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T06:15:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 5,
+                    "stop": {
+                        "id": "64f3ab00-d8a7-442f-91f9-ff62cdd55349",
+                        "type": "BUS",
+                        "timezone": "Europe/Paris",
+                        "name": "Cannes (Le Cannet)",
+                        "description": "The stop is located in Le Cannet, next to the city of Cannes. \nPlace B\u00e9nidorm, in front of the ESSO gas station.",
+                        "city": {
+                            "id": "40e0010f-8646-11e6-9066-549f350fcb0c",
+                            "name": "Cannes"
+                        },
+                        "code": "CNN",
+                        "location": {
+                            "latitude": 43.570867,
+                            "longitude": 7.014662
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T06:50:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T06:55:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 6,
+                    "stop": {
+                        "id": "dcc2e206-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Paris",
+                        "name": "Marseille (Saint-Charles)",
+                        "description": "Platforms 1 and 2 and sometimes platform 3.",
+                        "city": {
+                            "id": "40df8e99-8646-11e6-9066-549f350fcb0c",
+                            "name": "Marseille"
+                        },
+                        "code": "MAA",
+                        "location": {
+                            "latitude": 43.304081,
+                            "longitude": 5.37999
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T09:00:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T09:10:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 7,
+                    "stop": {
+                        "id": "dcc0b9bc-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Paris",
+                        "name": "Montpellier (Sabines)",
+                        "description": "",
+                        "city": {
+                            "id": "40df980f-8646-11e6-9066-549f350fcb0c",
+                            "name": "Montpellier"
+                        },
+                        "code": "MTP",
+                        "location": {
+                            "latitude": 43.583932,
+                            "longitude": 3.860233
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T11:35:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T11:45:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 8,
+                    "stop": {
+                        "id": "dcc34bb9-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Madrid",
+                        "name": "Barcelona (Bus Terminal Nord)",
+                        "description": "We remind all passengers that it is their responsibility to review all the mobility restriction measures established by the different Public Authorities and having available all the compulsory documentation currently in force on the date of departure in order to make international trips.",
+                        "city": {
+                            "id": "40e086ed-8646-11e6-9066-549f350fcb0c",
+                            "name": "Barcelona"
+                        },
+                        "code": "BAC",
+                        "location": {
+                            "latitude": 41.394181,
+                            "longitude": 2.182959
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T16:00:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": null
+                }
+            ],
+            "vehicle": {
+                "id": "4f7d994f-504d-4393-902c-4cb22ac946ba",
+                "license_plate": null,
+                "type": "BUS"
+            }
+        },
+        {
+            "id": "d9e2f2d0-f1a9-48e6-9789-475a31bb3f97",
+            "status": {
+                "segment": null,
+                "next_stop_sequence": null,
+                "has_arrived_at_next_stop": null,
+                "progress": null,
+                "deviation": null,
+                "scheduled_timestamp": "2026-05-22T01:00:00Z"
+            },
+            "platform": null,
+            "line": {
+                "code": "[S2S067]",
+                "direction": "Milan (Malpensa Airport Terminal 1)",
+                "name": "[TICKET] S2S_067 MXP-LMP",
+                "trip_number": 1,
+                "means_of_transport": "BUS",
+                "brand": {
+                    "id": "97c9cbea-8e42-44ad-90ec-6db4b9545ed5",
+                    "name": "Flibco"
+                }
+            },
+            "location": null,
+            "calls": [
+                {
+                    "sequence": 1,
+                    "stop": {
+                        "id": "dcbc484a-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Milan (Lampugnano bus station)",
+                        "description": "Platform B",
+                        "city": {
+                            "id": "40ddcc6e-8646-11e6-9066-549f350fcb0c",
+                            "name": "Milan"
+                        },
+                        "code": "MIO",
+                        "location": {
+                            "latitude": 45.489719,
+                            "longitude": 9.127528
+                        }
+                    },
+                    "arrival": null,
+                    "departure": {
+                        "scheduled": "2026-05-22T01:00:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 2,
+                    "stop": {
+                        "id": "2103d61e-1542-4be7-86be-eb59d3bd6380",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Rho Fiera Railway - Mind",
+                        "description": "",
+                        "city": {
+                            "id": "0efde628-f322-4eab-a0c1-6506d2ff8e3e",
+                            "name": "Rho"
+                        },
+                        "code": "RHOF",
+                        "location": {
+                            "latitude": 45.522127,
+                            "longitude": 9.086368
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T01:15:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T01:15:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 3,
+                    "stop": {
+                        "id": "ecdc19df-cd5f-47c0-8911-a5a981976aae",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Milan (Malpensa Shuttle Stop T2)",
+                        "description": "",
+                        "city": {
+                            "id": "40e324e7-8646-11e6-9066-549f350fcb0c",
+                            "name": "Milan Malpensa Airport"
+                        },
+                        "code": "MXT",
+                        "location": {
+                            "latitude": 45.64898,
+                            "longitude": 8.721779
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T01:45:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T01:45:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 4,
+                    "stop": {
+                        "id": "dcc5e795-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Milan (Malpensa Airport Terminal 1)",
+                        "description": "Flixbus: platform 7 (floor -1).\nOrioShuttle - line K358: platform 5 (to Monza, BGY Airport, Bergamo).\nTerravision - line CIT3190: platforms 1, 2 or 3 (floor -1).\nFlibco - lines CIT3197 and CIT3198: platforms 6 and 8 (floor -1).\nVolpi - line CIT3166: platform 6 (floor -1).",
+                        "city": {
+                            "id": "40e324e7-8646-11e6-9066-549f350fcb0c",
+                            "name": "Milan Malpensa Airport"
+                        },
+                        "code": "MXP",
+                        "location": {
+                            "latitude": 45.626148,
+                            "longitude": 8.710856
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T01:50:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": null
+                }
+            ],
+            "vehicle": null
+        },
+        {
+            "id": "9ba7292a-4769-4dfa-8c87-22c50b34dc76",
+            "status": {
+                "segment": null,
+                "next_stop_sequence": null,
+                "has_arrived_at_next_stop": null,
+                "progress": null,
+                "deviation": null,
+                "scheduled_timestamp": "2026-05-22T01:40:00Z"
+            },
+            "platform": null,
+            "line": {
+                "code": "[S2S059]",
+                "direction": "Bergamo (Orio al Serio Airport - BGY)",
+                "name": "[TICKET] S2S_059 BGY-CO",
+                "trip_number": 1,
+                "means_of_transport": "BUS",
+                "brand": {
+                    "id": "97c9cbea-8e42-44ad-90ec-6db4b9545ed5",
+                    "name": "Flibco"
+                }
+            },
+            "location": null,
+            "calls": [
+                {
+                    "sequence": 1,
+                    "stop": {
+                        "id": "ffef7a6f-c7b7-4576-88ba-6a73770f0ac9",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Como",
+                        "description": "",
+                        "city": {
+                            "id": "dd129ead-912c-4052-8e6a-cd441c14d0b6",
+                            "name": "Como"
+                        },
+                        "code": "CMO",
+                        "location": {
+                            "latitude": 45.80898,
+                            "longitude": 9.073305
+                        }
+                    },
+                    "arrival": null,
+                    "departure": {
+                        "scheduled": "2026-05-22T00:45:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 2,
+                    "stop": {
+                        "id": "6121b860-5df7-4e13-9fac-e1d7c08e13ce",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Como Grandate",
+                        "description": "",
+                        "city": {
+                            "id": "dd129ead-912c-4052-8e6a-cd441c14d0b6",
+                            "name": "Como"
+                        },
+                        "code": "COM",
+                        "location": {
+                            "latitude": 45.782123,
+                            "longitude": 9.054153
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T01:00:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T01:05:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 3,
+                    "stop": {
+                        "id": "dcbc484a-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Milan (Lampugnano bus station)",
+                        "description": "Platform B",
+                        "city": {
+                            "id": "40ddcc6e-8646-11e6-9066-549f350fcb0c",
+                            "name": "Milan"
+                        },
+                        "code": "MIO",
+                        "location": {
+                            "latitude": 45.489719,
+                            "longitude": 9.127528
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T01:35:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T01:40:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 4,
+                    "stop": {
+                        "id": "dcc45a6f-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Bergamo (Orio al Serio Airport - BGY)",
+                        "description": "Platform 6\nATTENTION for the following lines: \nLine K350 (operated by Orio Shuttle) will depart from platform 2,3,4 (direction Milan Centrale) \nLine K358 (operated by Orio Shuttle/Locatelli) will depart from platform 7 (direction Malpensa)\nLine CIT3146 (Livigno Express) bus stop in front of exit 3",
+                        "city": {
+                            "id": "e66b26bd-758d-4c59-ad1f-eddf72800f3e",
+                            "name": "Bergamo Orio al Serio Airport"
+                        },
+                        "code": "BGY",
+                        "location": {
+                            "latitude": 45.665814,
+                            "longitude": 9.697448
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T02:20:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": null
+                }
+            ],
+            "vehicle": null
+        },
+        {
+            "id": "b947206e-5f48-4d3f-a821-af31f160909e",
+            "status": {
+                "segment": null,
+                "next_stop_sequence": null,
+                "has_arrived_at_next_stop": false,
+                "progress": null,
+                "deviation": {
+                    "deviation_timestamp": "2026-05-22T02:10:00Z",
+                    "deviation_seconds": 0,
+                    "reason": null,
+                    "deviation_class": "ON_TIME",
+                    "deviation_type": "ESTIMATED",
+                    "updated_at": "2026-05-21T18:02:58Z"
+                },
+                "scheduled_timestamp": "2026-05-22T02:10:00Z"
+            },
+            "platform": null,
+            "line": {
+                "code": "N524",
+                "direction": "Basel SBB (Meret Oppenheim-Street)",
+                "name": "Basel - Rome",
+                "trip_number": 1,
+                "means_of_transport": "BUS",
+                "brand": {
+                    "id": "a18f138c-68fa-4b45-a42f-adb0378e10d3",
+                    "name": "FlixBus"
+                }
+            },
+            "location": null,
+            "calls": [
+                {
+                    "sequence": 1,
+                    "stop": {
+                        "id": "dcbd9538-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Rome Tiburtina Bus station",
+                        "description": "",
+                        "city": {
+                            "id": "40de90ff-8646-11e6-9066-549f350fcb0c",
+                            "name": "Rome"
+                        },
+                        "code": "ROM",
+                        "location": {
+                            "latitude": 41.909362,
+                            "longitude": 12.528317
+                        }
+                    },
+                    "arrival": null,
+                    "departure": {
+                        "scheduled": "2026-05-21T18:00:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 2,
+                    "stop": {
+                        "id": "f4a4521a-4808-45fa-a382-4acfbc27bc4a",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Florence (Piazzale Montelungo)",
+                        "description": "",
+                        "city": {
+                            "id": "40de71c6-8646-11e6-9066-549f350fcb0c",
+                            "name": "Florence"
+                        },
+                        "code": "FIM",
+                        "location": {
+                            "latitude": 43.78078435720681,
+                            "longitude": 11.246645527360123
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-21T21:35:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-21T21:40:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 3,
+                    "stop": {
+                        "id": "dcbcdfc1-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Florence (Villa Costanza)",
+                        "description": "Passengers with interconnection tickets must get off at Villa Costanza",
+                        "city": {
+                            "id": "40de71c6-8646-11e6-9066-549f350fcb0c",
+                            "name": "Florence"
+                        },
+                        "code": "FIV",
+                        "location": {
+                            "latitude": 43.755014,
+                            "longitude": 11.172638
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-21T21:59:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-21T22:05:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 4,
+                    "stop": {
+                        "id": "dcc03216-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Bologna (central bus station)",
+                        "description": "",
+                        "city": {
+                            "id": "40df3653-8646-11e6-9066-549f350fcb0c",
+                            "name": "Bologna"
+                        },
+                        "code": "BOL",
+                        "location": {
+                            "latitude": 44.50399,
+                            "longitude": 11.346852
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-21T23:15:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-21T23:20:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 5,
+                    "stop": {
+                        "id": "dcbc484a-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Milan (Lampugnano bus station)",
+                        "description": "Platform B",
+                        "city": {
+                            "id": "40ddcc6e-8646-11e6-9066-549f350fcb0c",
+                            "name": "Milan"
+                        },
+                        "code": "MIO",
+                        "location": {
+                            "latitude": 45.489719,
+                            "longitude": 9.127528
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T02:00:00Z",
+                        "deviation": {
+                            "deviation_timestamp": "2026-05-22T02:00:00Z",
+                            "deviation_seconds": 0,
+                            "reason": null,
+                            "deviation_class": "ON_TIME",
+                            "deviation_type": "ESTIMATED",
+                            "updated_at": "2026-05-21T18:02:58Z"
+                        },
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T02:10:00Z",
+                        "deviation": {
+                            "deviation_timestamp": "2026-05-22T02:10:00Z",
+                            "deviation_seconds": 0,
+                            "reason": null,
+                            "deviation_class": "ON_TIME",
+                            "deviation_type": "ESTIMATED",
+                            "updated_at": "2026-05-21T18:02:58Z"
+                        },
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 6,
+                    "stop": {
+                        "id": "dcbab299-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Zurich",
+                        "name": "Zurich Bus Station",
+                        "description": "",
+                        "city": {
+                            "id": "40d8fa3c-8646-11e6-9066-549f350fcb0c",
+                            "name": "Zurich"
+                        },
+                        "code": "ZH",
+                        "location": {
+                            "latitude": 47.380855,
+                            "longitude": 8.537436
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T06:05:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T06:10:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 7,
+                    "stop": {
+                        "id": "dcbc827f-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Zurich",
+                        "name": "Basel SBB (Meret Oppenheim-Street)",
+                        "description": "",
+                        "city": {
+                            "id": "40de3026-8646-11e6-9066-549f350fcb0c",
+                            "name": "Basel"
+                        },
+                        "code": "BAS",
+                        "location": {
+                            "latitude": 47.545639,
+                            "longitude": 7.59025
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T07:15:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": null
+                }
+            ],
+            "vehicle": {
+                "id": "ddd52777-5cfe-410e-a323-d2734aee2018",
+                "license_plate": null,
+                "type": "BUS"
+            }
+        },
+        {
+            "id": "818bcd30-7b39-4311-9d0a-2345e53daf3f",
+            "status": {
+                "segment": null,
+                "next_stop_sequence": null,
+                "has_arrived_at_next_stop": null,
+                "progress": null,
+                "deviation": null,
+                "scheduled_timestamp": "2026-05-22T02:55:00Z"
+            },
+            "platform": null,
+            "line": {
+                "code": "[S2S059]",
+                "direction": "Bergamo (Orio al Serio Airport - BGY)",
+                "name": "[TICKET] S2S_059 BGY-CO",
+                "trip_number": 1,
+                "means_of_transport": "BUS",
+                "brand": {
+                    "id": "97c9cbea-8e42-44ad-90ec-6db4b9545ed5",
+                    "name": "Flibco"
+                }
+            },
+            "location": null,
+            "calls": [
+                {
+                    "sequence": 1,
+                    "stop": {
+                        "id": "ffef7a6f-c7b7-4576-88ba-6a73770f0ac9",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Como",
+                        "description": "",
+                        "city": {
+                            "id": "dd129ead-912c-4052-8e6a-cd441c14d0b6",
+                            "name": "Como"
+                        },
+                        "code": "CMO",
+                        "location": {
+                            "latitude": 45.80898,
+                            "longitude": 9.073305
+                        }
+                    },
+                    "arrival": null,
+                    "departure": {
+                        "scheduled": "2026-05-22T02:00:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 2,
+                    "stop": {
+                        "id": "6121b860-5df7-4e13-9fac-e1d7c08e13ce",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Como Grandate",
+                        "description": "",
+                        "city": {
+                            "id": "dd129ead-912c-4052-8e6a-cd441c14d0b6",
+                            "name": "Como"
+                        },
+                        "code": "COM",
+                        "location": {
+                            "latitude": 45.782123,
+                            "longitude": 9.054153
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T02:15:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T02:20:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 3,
+                    "stop": {
+                        "id": "dcbc484a-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Milan (Lampugnano bus station)",
+                        "description": "Platform B",
+                        "city": {
+                            "id": "40ddcc6e-8646-11e6-9066-549f350fcb0c",
+                            "name": "Milan"
+                        },
+                        "code": "MIO",
+                        "location": {
+                            "latitude": 45.489719,
+                            "longitude": 9.127528
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T02:50:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T02:55:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 4,
+                    "stop": {
+                        "id": "dcc45a6f-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Bergamo (Orio al Serio Airport - BGY)",
+                        "description": "Platform 6\nATTENTION for the following lines: \nLine K350 (operated by Orio Shuttle) will depart from platform 2,3,4 (direction Milan Centrale) \nLine K358 (operated by Orio Shuttle/Locatelli) will depart from platform 7 (direction Malpensa)\nLine CIT3146 (Livigno Express) bus stop in front of exit 3",
+                        "city": {
+                            "id": "e66b26bd-758d-4c59-ad1f-eddf72800f3e",
+                            "name": "Bergamo Orio al Serio Airport"
+                        },
+                        "code": "BGY",
+                        "location": {
+                            "latitude": 45.665814,
+                            "longitude": 9.697448
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T03:35:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": null
+                }
+            ],
+            "vehicle": null
+        },
+        {
+            "id": "ad74a900-a875-426d-9861-cc8d8e22ab03",
+            "status": {
+                "segment": null,
+                "next_stop_sequence": null,
+                "has_arrived_at_next_stop": false,
+                "progress": null,
+                "deviation": {
+                    "deviation_timestamp": "2026-05-22T03:21:47Z",
+                    "deviation_seconds": 1307,
+                    "reason": null,
+                    "deviation_class": "LATE",
+                    "deviation_type": "ESTIMATED",
+                    "updated_at": "2026-05-21T22:19:24Z"
+                },
+                "scheduled_timestamp": "2026-05-22T03:00:00Z"
+            },
+            "platform": null,
+            "line": {
+                "code": "N401",
+                "direction": "Venice Mestre (Stazione FS)",
+                "name": "Venice - Strasbourg",
+                "trip_number": 1,
+                "means_of_transport": "BUS",
+                "brand": {
+                    "id": "a18f138c-68fa-4b45-a42f-adb0378e10d3",
+                    "name": "FlixBus"
+                }
+            },
+            "location": null,
+            "calls": [
+                {
+                    "sequence": 1,
+                    "stop": {
+                        "id": "dcbac843-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Paris",
+                        "name": "Strasbourg",
+                        "description": "Bus stop is located on \"Place de l'Etoile\" at the central bus station",
+                        "city": {
+                            "id": "40d90f52-8646-11e6-9066-549f350fcb0c",
+                            "name": "Strasbourg"
+                        },
+                        "code": "STB",
+                        "location": {
+                            "latitude": 48.5741794,
+                            "longitude": 7.7542663
+                        }
+                    },
+                    "arrival": null,
+                    "departure": {
+                        "scheduled": "2026-05-21T18:55:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 2,
+                    "stop": {
+                        "id": "dcbab968-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Berlin",
+                        "name": "Freiburg (im Breisgau) central station",
+                        "description": "The airport line CDE3207 departs from bus platform 3.\n\nDriving into the bus station lot with a private vehicle is not permitted! The bus station operator will report any violation of that prohibition to police.",
+                        "city": {
+                            "id": "40d8ff3b-8646-11e6-9066-549f350fcb0c",
+                            "name": "Freiburg (i.Br.)"
+                        },
+                        "code": "FR",
+                        "location": {
+                            "latitude": 47.995688,
+                            "longitude": 7.840469
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-21T20:10:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-21T20:20:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 3,
+                    "stop": {
+                        "id": "dcbc827f-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Zurich",
+                        "name": "Basel SBB (Meret Oppenheim-Street)",
+                        "description": "",
+                        "city": {
+                            "id": "40de3026-8646-11e6-9066-549f350fcb0c",
+                            "name": "Basel"
+                        },
+                        "code": "BAS",
+                        "location": {
+                            "latitude": 47.545639,
+                            "longitude": 7.59025
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-21T21:20:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-21T21:25:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 4,
+                    "stop": {
+                        "id": "dcbab299-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Zurich",
+                        "name": "Zurich Bus Station",
+                        "description": "",
+                        "city": {
+                            "id": "40d8fa3c-8646-11e6-9066-549f350fcb0c",
+                            "name": "Zurich"
+                        },
+                        "code": "ZH",
+                        "location": {
+                            "latitude": 47.380855,
+                            "longitude": 8.537436
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-21T22:30:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-21T22:40:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 5,
+                    "stop": {
+                        "id": "e7c8ed17-43b8-4766-8c0c-3f215ae7aca9",
+                        "type": "BUS",
+                        "timezone": "Europe/Zurich",
+                        "name": "Luzern (Landenberg)",
+                        "description": "",
+                        "city": {
+                            "id": "bbc09524-5732-4539-b1ea-49fc1e36e90e",
+                            "name": "Luzern"
+                        },
+                        "code": "LUZ",
+                        "location": {
+                            "latitude": 47.046915,
+                            "longitude": 8.315742
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-21T23:25:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-21T23:30:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 6,
+                    "stop": {
+                        "id": "dcbc484a-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Milan (Lampugnano bus station)",
+                        "description": "Platform B",
+                        "city": {
+                            "id": "40ddcc6e-8646-11e6-9066-549f350fcb0c",
+                            "name": "Milan"
+                        },
+                        "code": "MIO",
+                        "location": {
+                            "latitude": 45.489719,
+                            "longitude": 9.127528
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T02:50:00Z",
+                        "deviation": {
+                            "deviation_timestamp": "2026-05-22T03:21:47Z",
+                            "deviation_seconds": 1907,
+                            "reason": null,
+                            "deviation_class": "LATE",
+                            "deviation_type": "ESTIMATED",
+                            "updated_at": "2026-05-21T22:19:24Z"
+                        },
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T03:00:00Z",
+                        "deviation": {
+                            "deviation_timestamp": "2026-05-22T03:21:47Z",
+                            "deviation_seconds": 1307,
+                            "reason": null,
+                            "deviation_class": "LATE",
+                            "deviation_type": "ESTIMATED",
+                            "updated_at": "2026-05-21T22:19:24Z"
+                        },
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 7,
+                    "stop": {
+                        "id": "dcbdb0fa-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Verona (Porta Nuova)",
+                        "description": "",
+                        "city": {
+                            "id": "40dea1ff-8646-11e6-9066-549f350fcb0c",
+                            "name": "Verona"
+                        },
+                        "code": "VR",
+                        "location": {
+                            "latitude": 45.431548,
+                            "longitude": 10.980957
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T04:55:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T05:00:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 8,
+                    "stop": {
+                        "id": "dcbd8a4d-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Padua",
+                        "description": "",
+                        "city": {
+                            "id": "40de8868-8646-11e6-9066-549f350fcb0c",
+                            "name": "Padua"
+                        },
+                        "code": "PAD",
+                        "location": {
+                            "latitude": 45.418751,
+                            "longitude": 11.873498
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T06:15:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T06:20:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 9,
+                    "stop": {
+                        "id": "dcc0139d-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Venice Mestre (Stazione FS)",
+                        "description": "ATTENTION!\nLine CIT3158 operated by ATVO (direction Cortina) departs from ATVO stop, 50 meters to the right from Flixbus stop. Line CIT3177 operated by Barzi (direction Treviso Airport) departs from Barzi stop, in Viale della Stazione 22/24 in front of Enjoy Bar/Hotel Plaza - Stop C4",
+                        "city": {
+                            "id": "40dea03b-8646-11e6-9066-549f350fcb0c",
+                            "name": "Venice"
+                        },
+                        "code": "MTR",
+                        "location": {
+                            "latitude": 45.482223,
+                            "longitude": 12.233842
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T07:00:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": null
+                }
+            ],
+            "vehicle": {
+                "id": "2da8fa0b-363b-47de-ad92-90bd0b948066",
+                "license_plate": null,
+                "type": "BUS"
+            }
+        },
+        {
+            "id": "0fb153fe-a1b4-46e3-9ad9-0b1969d4da37",
+            "status": {
+                "segment": null,
+                "next_stop_sequence": null,
+                "has_arrived_at_next_stop": null,
+                "progress": null,
+                "deviation": null,
+                "scheduled_timestamp": "2026-05-22T03:00:00Z"
+            },
+            "platform": null,
+            "line": {
+                "code": "[S2S067]",
+                "direction": "Milan (Malpensa Airport Terminal 1)",
+                "name": "[TICKET] S2S_067 MXP-LMP",
+                "trip_number": 1,
+                "means_of_transport": "BUS",
+                "brand": {
+                    "id": "97c9cbea-8e42-44ad-90ec-6db4b9545ed5",
+                    "name": "Flibco"
+                }
+            },
+            "location": null,
+            "calls": [
+                {
+                    "sequence": 1,
+                    "stop": {
+                        "id": "dcbc484a-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Milan (Lampugnano bus station)",
+                        "description": "Platform B",
+                        "city": {
+                            "id": "40ddcc6e-8646-11e6-9066-549f350fcb0c",
+                            "name": "Milan"
+                        },
+                        "code": "MIO",
+                        "location": {
+                            "latitude": 45.489719,
+                            "longitude": 9.127528
+                        }
+                    },
+                    "arrival": null,
+                    "departure": {
+                        "scheduled": "2026-05-22T03:00:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 2,
+                    "stop": {
+                        "id": "2103d61e-1542-4be7-86be-eb59d3bd6380",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Rho Fiera Railway - Mind",
+                        "description": "",
+                        "city": {
+                            "id": "0efde628-f322-4eab-a0c1-6506d2ff8e3e",
+                            "name": "Rho"
+                        },
+                        "code": "RHOF",
+                        "location": {
+                            "latitude": 45.522127,
+                            "longitude": 9.086368
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T03:15:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T03:15:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 3,
+                    "stop": {
+                        "id": "ecdc19df-cd5f-47c0-8911-a5a981976aae",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Milan (Malpensa Shuttle Stop T2)",
+                        "description": "",
+                        "city": {
+                            "id": "40e324e7-8646-11e6-9066-549f350fcb0c",
+                            "name": "Milan Malpensa Airport"
+                        },
+                        "code": "MXT",
+                        "location": {
+                            "latitude": 45.64898,
+                            "longitude": 8.721779
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T03:45:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T03:45:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 4,
+                    "stop": {
+                        "id": "dcc5e795-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Milan (Malpensa Airport Terminal 1)",
+                        "description": "Flixbus: platform 7 (floor -1).\nOrioShuttle - line K358: platform 5 (to Monza, BGY Airport, Bergamo).\nTerravision - line CIT3190: platforms 1, 2 or 3 (floor -1).\nFlibco - lines CIT3197 and CIT3198: platforms 6 and 8 (floor -1).\nVolpi - line CIT3166: platform 6 (floor -1).",
+                        "city": {
+                            "id": "40e324e7-8646-11e6-9066-549f350fcb0c",
+                            "name": "Milan Malpensa Airport"
+                        },
+                        "code": "MXP",
+                        "location": {
+                            "latitude": 45.626148,
+                            "longitude": 8.710856
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T03:50:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": null
+                }
+            ],
+            "vehicle": null
+        },
+        {
+            "id": "1c8e24fb-69b6-4f68-93d6-cbe0d00a2221",
+            "status": {
+                "segment": null,
+                "next_stop_sequence": null,
+                "has_arrived_at_next_stop": false,
+                "progress": null,
+                "deviation": {
+                    "deviation_timestamp": "2026-05-22T03:15:00Z",
+                    "deviation_seconds": 0,
+                    "reason": null,
+                    "deviation_class": "ON_TIME",
+                    "deviation_type": "ESTIMATED",
+                    "updated_at": "2026-05-21T14:51:15Z"
+                },
+                "scheduled_timestamp": "2026-05-22T03:15:00Z"
+            },
+            "platform": null,
+            "line": {
+                "code": "N77",
+                "direction": "Rome Tiburtina Bus station",
+                "name": "Rome - Frankfurt",
+                "trip_number": 1,
+                "means_of_transport": "BUS",
+                "brand": {
+                    "id": "a18f138c-68fa-4b45-a42f-adb0378e10d3",
+                    "name": "FlixBus"
+                }
+            },
+            "location": null,
+            "calls": [
+                {
+                    "sequence": 1,
+                    "stop": {
+                        "id": "dcbabe0c-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Berlin",
+                        "name": "Frankfurt central train station",
+                        "description": "",
+                        "city": {
+                            "id": "40d90407-8646-11e6-9066-549f350fcb0c",
+                            "name": "Frankfurt"
+                        },
+                        "code": "F",
+                        "location": {
+                            "latitude": 50.104394,
+                            "longitude": 8.662577
+                        }
+                    },
+                    "arrival": null,
+                    "departure": {
+                        "scheduled": "2026-05-21T15:45:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 2,
+                    "stop": {
+                        "id": "dcbac575-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Berlin",
+                        "name": "Mannheim central bus station",
+                        "description": "",
+                        "city": {
+                            "id": "40d90c3a-8646-11e6-9066-549f350fcb0c",
+                            "name": "Mannheim"
+                        },
+                        "code": "MA",
+                        "location": {
+                            "latitude": 49.4780796,
+                            "longitude": 8.4728193
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-21T16:55:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-21T17:00:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 3,
+                    "stop": {
+                        "id": "dcbacb9f-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Berlin",
+                        "name": "Karlsruhe central train station",
+                        "description": "",
+                        "city": {
+                            "id": "40d912c2-8646-11e6-9066-549f350fcb0c",
+                            "name": "Karlsruhe"
+                        },
+                        "code": "KA",
+                        "location": {
+                            "latitude": 48.9914681,
+                            "longitude": 8.4004533
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-21T18:05:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-21T18:10:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 4,
+                    "stop": {
+                        "id": "dcbf78bb-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Berlin",
+                        "name": "Stuttgart Airport Busterminal (SAB)",
+                        "description": "Gate information available here: https://stuttgart-airport-busterminal.com/de/abfahrt",
+                        "city": {
+                            "id": "40d90995-8646-11e6-9066-549f350fcb0c",
+                            "name": "Stuttgart"
+                        },
+                        "code": "STF",
+                        "location": {
+                            "latitude": 48.691588,
+                            "longitude": 9.196743
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-21T19:10:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-21T19:15:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 5,
+                    "stop": {
+                        "id": "dcbbd372-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Berlin",
+                        "name": "Ulm (Eberhard-Finckh-Stra\u00dfe)",
+                        "description": "Parking lot, Ludwig-Beck-Stra\u00dfe/corner B\u00f6finger Steige\nDriving into the bus station lot with a private vehicle is not permitted! The bus station operator will report any violation of that prohibition to police.",
+                        "city": {
+                            "id": "40dd1618-8646-11e6-9066-549f350fcb0c",
+                            "name": "Ulm"
+                        },
+                        "code": "UL",
+                        "location": {
+                            "latitude": 48.42568,
+                            "longitude": 10.01082
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-21T20:25:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-21T20:30:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 6,
+                    "stop": {
+                        "id": "dcbbd055-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Vienna",
+                        "name": "Bregenz bus station",
+                        "description": "long distance bus stop",
+                        "city": {
+                            "id": "40dd9c0f-8646-11e6-9066-549f350fcb0c",
+                            "name": "Bregenz"
+                        },
+                        "code": "BGZ",
+                        "location": {
+                            "latitude": 47.501994,
+                            "longitude": 9.739115
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-21T22:35:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-21T22:40:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 7,
+                    "stop": {
+                        "id": "dcbc484a-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Milan (Lampugnano bus station)",
+                        "description": "Platform B",
+                        "city": {
+                            "id": "40ddcc6e-8646-11e6-9066-549f350fcb0c",
+                            "name": "Milan"
+                        },
+                        "code": "MIO",
+                        "location": {
+                            "latitude": 45.489719,
+                            "longitude": 9.127528
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T03:05:00Z",
+                        "deviation": {
+                            "deviation_timestamp": "2026-05-22T03:05:00Z",
+                            "deviation_seconds": 0,
+                            "reason": null,
+                            "deviation_class": "ON_TIME",
+                            "deviation_type": "ESTIMATED",
+                            "updated_at": "2026-05-21T14:51:15Z"
+                        },
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T03:15:00Z",
+                        "deviation": {
+                            "deviation_timestamp": "2026-05-22T03:15:00Z",
+                            "deviation_seconds": 0,
+                            "reason": null,
+                            "deviation_class": "ON_TIME",
+                            "deviation_type": "ESTIMATED",
+                            "updated_at": "2026-05-21T14:51:15Z"
+                        },
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 8,
+                    "stop": {
+                        "id": "dcc03216-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Bologna (central bus station)",
+                        "description": "",
+                        "city": {
+                            "id": "40df3653-8646-11e6-9066-549f350fcb0c",
+                            "name": "Bologna"
+                        },
+                        "code": "BOL",
+                        "location": {
+                            "latitude": 44.50399,
+                            "longitude": 11.346852
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T06:25:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T06:35:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 9,
+                    "stop": {
+                        "id": "dcbcdfc1-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Florence (Villa Costanza)",
+                        "description": "Passengers with interconnection tickets must get off at Villa Costanza",
+                        "city": {
+                            "id": "40de71c6-8646-11e6-9066-549f350fcb0c",
+                            "name": "Florence"
+                        },
+                        "code": "FIV",
+                        "location": {
+                            "latitude": 43.755014,
+                            "longitude": 11.172638
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T08:25:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T08:35:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 10,
+                    "stop": {
+                        "id": "dcbd9538-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Rome Tiburtina Bus station",
+                        "description": "",
+                        "city": {
+                            "id": "40de90ff-8646-11e6-9066-549f350fcb0c",
+                            "name": "Rome"
+                        },
+                        "code": "ROM",
+                        "location": {
+                            "latitude": 41.909362,
+                            "longitude": 12.528317
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T11:50:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": null
+                }
+            ],
+            "vehicle": {
+                "id": "4e6dca64-fa5d-4092-85a0-0c336a70d314",
+                "license_plate": null,
+                "type": "BUS"
+            }
+        },
+        {
+            "id": "bbe3a6c1-f13d-4703-b1fb-4c5d1fac35ce",
+            "status": {
+                "segment": null,
+                "next_stop_sequence": null,
+                "has_arrived_at_next_stop": false,
+                "progress": null,
+                "deviation": {
+                    "deviation_timestamp": "2026-05-22T03:35:00Z",
+                    "deviation_seconds": 0,
+                    "reason": null,
+                    "deviation_class": "ON_TIME",
+                    "deviation_type": "ESTIMATED",
+                    "updated_at": "2026-05-21T18:42:54Z"
+                },
+                "scheduled_timestamp": "2026-05-22T03:35:00Z"
+            },
+            "platform": null,
+            "line": {
+                "code": "N527",
+                "direction": "Grosseto (Stazione FS)",
+                "name": "Clermont Ferrand - Florence - Grosseto",
+                "trip_number": 3,
+                "means_of_transport": "BUS",
+                "brand": {
+                    "id": "a18f138c-68fa-4b45-a42f-adb0378e10d3",
+                    "name": "FlixBus"
+                }
+            },
+            "location": null,
+            "calls": [
+                {
+                    "sequence": 1,
+                    "stop": {
+                        "id": "dcc055c8-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Paris",
+                        "name": "Clermont-Ferrand (Bus Station)",
+                        "description": "Please note: Due to the closure of the bus station, every week between Saturday 8:00 p.m and Sunday  02:00 p.m,\u00a0all arrivals and departures will be operated\u00a0at the bus stop \"Salins Pasteur\" located outside the bus station\u00a0(Boulevard Pasteur, Google Maps:\u00a045.771645, 3.081718).",
+                        "city": {
+                            "id": "40df47f8-8646-11e6-9066-549f350fcb0c",
+                            "name": "Clermont-Ferrand"
+                        },
+                        "code": "CLF",
+                        "location": {
+                            "latitude": 45.770757,
+                            "longitude": 3.082247
+                        }
+                    },
+                    "arrival": null,
+                    "departure": {
+                        "scheduled": "2026-05-21T18:45:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 2,
+                    "stop": {
+                        "id": "9fe81919-2d89-48f4-81a3-322dc4b5614d",
+                        "type": "BUS",
+                        "timezone": "Europe/Paris",
+                        "name": "Lyon (Gerland Bus Station)",
+                        "description": "Since January 12th of 2026, the FlixBus stop in Lyon is relocated at Gerland station.",
+                        "city": {
+                            "id": "40df89c1-8646-11e6-9066-549f350fcb0c",
+                            "name": "Lyon"
+                        },
+                        "code": "LYON",
+                        "location": {
+                            "latitude": 45.726184,
+                            "longitude": 4.828142
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-21T20:45:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-21T21:00:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 3,
+                    "stop": {
+                        "id": "dcc07383-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Paris",
+                        "name": "Chamb\u00e9ry (Central Bus Station)",
+                        "description": "",
+                        "city": {
+                            "id": "40df5fc1-8646-11e6-9066-549f350fcb0c",
+                            "name": "Chamb\u00e9ry"
+                        },
+                        "code": "CHA",
+                        "location": {
+                            "latitude": 45.56998,
+                            "longitude": 5.91742
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-21T22:20:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-21T22:25:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 4,
+                    "stop": {
+                        "id": "dcbfe731-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Turin (Vittorio Emanuele)",
+                        "description": "",
+                        "city": {
+                            "id": "40deee02-8646-11e6-9066-549f350fcb0c",
+                            "name": "Turin"
+                        },
+                        "code": "TO",
+                        "location": {
+                            "latitude": 45.07016,
+                            "longitude": 7.657706
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T01:35:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T01:45:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 5,
+                    "stop": {
+                        "id": "dcbc484a-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Milan (Lampugnano bus station)",
+                        "description": "Platform B",
+                        "city": {
+                            "id": "40ddcc6e-8646-11e6-9066-549f350fcb0c",
+                            "name": "Milan"
+                        },
+                        "code": "MIO",
+                        "location": {
+                            "latitude": 45.489719,
+                            "longitude": 9.127528
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T03:25:00Z",
+                        "deviation": {
+                            "deviation_timestamp": "2026-05-22T03:25:00Z",
+                            "deviation_seconds": 0,
+                            "reason": null,
+                            "deviation_class": "ON_TIME",
+                            "deviation_type": "ESTIMATED",
+                            "updated_at": "2026-05-21T18:42:54Z"
+                        },
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T03:35:00Z",
+                        "deviation": {
+                            "deviation_timestamp": "2026-05-22T03:35:00Z",
+                            "deviation_seconds": 0,
+                            "reason": null,
+                            "deviation_class": "ON_TIME",
+                            "deviation_type": "ESTIMATED",
+                            "updated_at": "2026-05-21T18:42:54Z"
+                        },
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 6,
+                    "stop": {
+                        "id": "dcc03216-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Bologna (central bus station)",
+                        "description": "",
+                        "city": {
+                            "id": "40df3653-8646-11e6-9066-549f350fcb0c",
+                            "name": "Bologna"
+                        },
+                        "code": "BOL",
+                        "location": {
+                            "latitude": 44.50399,
+                            "longitude": 11.346852
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T06:40:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T06:50:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 7,
+                    "stop": {
+                        "id": "dcbcdfc1-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Florence (Villa Costanza)",
+                        "description": "Passengers with interconnection tickets must get off at Villa Costanza",
+                        "city": {
+                            "id": "40de71c6-8646-11e6-9066-549f350fcb0c",
+                            "name": "Florence"
+                        },
+                        "code": "FIV",
+                        "location": {
+                            "latitude": 43.755014,
+                            "longitude": 11.172638
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T08:10:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T08:20:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 8,
+                    "stop": {
+                        "id": "dcc58d6e-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Poggibonsi",
+                        "description": "In front of Esso Gas Station",
+                        "city": {
+                            "id": "40e31070-8646-11e6-9066-549f350fcb0c",
+                            "name": "Poggibonsi"
+                        },
+                        "code": "PGS",
+                        "location": {
+                            "latitude": 43.468264,
+                            "longitude": 11.153432
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T08:55:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T08:56:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 9,
+                    "stop": {
+                        "id": "dcc2789b-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Siena (Stazione FS)",
+                        "description": "",
+                        "city": {
+                            "id": "40e10ab9-8646-11e6-9066-549f350fcb0c",
+                            "name": "Siena"
+                        },
+                        "code": "SIE",
+                        "location": {
+                            "latitude": 43.331378,
+                            "longitude": 11.323178
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T09:20:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T09:25:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 10,
+                    "stop": {
+                        "id": "dcc19f33-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Grosseto (Stazione FS)",
+                        "description": "",
+                        "city": {
+                            "id": "40e09a47-8646-11e6-9066-549f350fcb0c",
+                            "name": "Grosseto"
+                        },
+                        "code": "GSS",
+                        "location": {
+                            "latitude": 42.767642,
+                            "longitude": 11.107248
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T10:40:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": null
+                }
+            ],
+            "vehicle": {
+                "id": "4f21deb5-ed44-479b-906d-42172dc9bcc2",
+                "license_plate": null,
+                "type": "BUS"
+            }
+        },
+        {
+            "id": "9db2f381-5b37-4173-a766-914f748b716c",
+            "status": {
+                "segment": null,
+                "next_stop_sequence": null,
+                "has_arrived_at_next_stop": false,
+                "progress": null,
+                "deviation": {
+                    "deviation_timestamp": "2026-05-22T03:45:00Z",
+                    "deviation_seconds": 0,
+                    "reason": null,
+                    "deviation_class": "ON_TIME",
+                    "deviation_type": "ESTIMATED",
+                    "updated_at": "2026-05-21T18:00:29Z"
+                },
+                "scheduled_timestamp": "2026-05-22T03:45:00Z"
+            },
+            "platform": null,
+            "line": {
+                "code": "N406",
+                "direction": "Lyon (Gerland Bus Station)",
+                "name": "Rijeka - Milan - Turin/Lyon",
+                "trip_number": 11,
+                "means_of_transport": "BUS",
+                "brand": {
+                    "id": "a18f138c-68fa-4b45-a42f-adb0378e10d3",
+                    "name": "FlixBus"
+                }
+            },
+            "location": null,
+            "calls": [
+                {
+                    "sequence": 1,
+                    "stop": {
+                        "id": "dcc297e0-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Zagreb",
+                        "name": "Rijeka bus station",
+                        "description": "",
+                        "city": {
+                            "id": "40e11860-8646-11e6-9066-549f350fcb0c",
+                            "name": "Rijeka"
+                        },
+                        "code": "QRJ",
+                        "location": {
+                            "latitude": 45.327907,
+                            "longitude": 14.436863
+                        }
+                    },
+                    "arrival": null,
+                    "departure": {
+                        "scheduled": "2026-05-21T19:00:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 2,
+                    "stop": {
+                        "id": "dcbda963-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Trieste (Autostazione)",
+                        "description": "Bus station Silos \u2013 bus platform 2 for FLIXBUS lines\nATTENTION! Bus station is closed from 1:00 to 4:30. In these hours buses will stop outside the station.",
+                        "city": {
+                            "id": "40de9f2f-8646-11e6-9066-549f350fcb0c",
+                            "name": "Trieste"
+                        },
+                        "code": "TRT",
+                        "location": {
+                            "latitude": 45.657193,
+                            "longitude": 13.770828
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-21T20:50:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-21T20:55:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 3,
+                    "stop": {
+                        "id": "dcbdacd2-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Venice (Tronchetto)",
+                        "description": "",
+                        "city": {
+                            "id": "40dea03b-8646-11e6-9066-549f350fcb0c",
+                            "name": "Venice"
+                        },
+                        "code": "VE",
+                        "location": {
+                            "latitude": 45.441978,
+                            "longitude": 12.30798
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-21T22:55:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-21T23:00:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 4,
+                    "stop": {
+                        "id": "dcc0139d-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Venice Mestre (Stazione FS)",
+                        "description": "ATTENTION!\nLine CIT3158 operated by ATVO (direction Cortina) departs from ATVO stop, 50 meters to the right from Flixbus stop. Line CIT3177 operated by Barzi (direction Treviso Airport) departs from Barzi stop, in Viale della Stazione 22/24 in front of Enjoy Bar/Hotel Plaza - Stop C4",
+                        "city": {
+                            "id": "40dea03b-8646-11e6-9066-549f350fcb0c",
+                            "name": "Venice"
+                        },
+                        "code": "MTR",
+                        "location": {
+                            "latitude": 45.482223,
+                            "longitude": 12.233842
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-21T23:10:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-21T23:15:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 5,
+                    "stop": {
+                        "id": "dcbd8a4d-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Padua",
+                        "description": "",
+                        "city": {
+                            "id": "40de8868-8646-11e6-9066-549f350fcb0c",
+                            "name": "Padua"
+                        },
+                        "code": "PAD",
+                        "location": {
+                            "latitude": 45.418751,
+                            "longitude": 11.873498
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-21T23:45:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-21T23:50:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 6,
+                    "stop": {
+                        "id": "dcbdb0fa-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Verona (Porta Nuova)",
+                        "description": "",
+                        "city": {
+                            "id": "40dea1ff-8646-11e6-9066-549f350fcb0c",
+                            "name": "Verona"
+                        },
+                        "code": "VR",
+                        "location": {
+                            "latitude": 45.431548,
+                            "longitude": 10.980957
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T01:05:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T01:10:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 7,
+                    "stop": {
+                        "id": "dcc45a6f-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Bergamo (Orio al Serio Airport - BGY)",
+                        "description": "Platform 6\nATTENTION for the following lines: \nLine K350 (operated by Orio Shuttle) will depart from platform 2,3,4 (direction Milan Centrale) \nLine K358 (operated by Orio Shuttle/Locatelli) will depart from platform 7 (direction Malpensa)\nLine CIT3146 (Livigno Express) bus stop in front of exit 3",
+                        "city": {
+                            "id": "e66b26bd-758d-4c59-ad1f-eddf72800f3e",
+                            "name": "Bergamo Orio al Serio Airport"
+                        },
+                        "code": "BGY",
+                        "location": {
+                            "latitude": 45.665814,
+                            "longitude": 9.697448
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T02:35:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T02:40:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 8,
+                    "stop": {
+                        "id": "dcbc484a-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Milan (Lampugnano bus station)",
+                        "description": "Platform B",
+                        "city": {
+                            "id": "40ddcc6e-8646-11e6-9066-549f350fcb0c",
+                            "name": "Milan"
+                        },
+                        "code": "MIO",
+                        "location": {
+                            "latitude": 45.489719,
+                            "longitude": 9.127528
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T03:30:00Z",
+                        "deviation": {
+                            "deviation_timestamp": "2026-05-22T03:30:00Z",
+                            "deviation_seconds": 0,
+                            "reason": null,
+                            "deviation_class": "ON_TIME",
+                            "deviation_type": "ESTIMATED",
+                            "updated_at": "2026-05-21T18:00:29Z"
+                        },
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T03:45:00Z",
+                        "deviation": {
+                            "deviation_timestamp": "2026-05-22T03:45:00Z",
+                            "deviation_seconds": 0,
+                            "reason": null,
+                            "deviation_class": "ON_TIME",
+                            "deviation_type": "ESTIMATED",
+                            "updated_at": "2026-05-21T18:00:29Z"
+                        },
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 9,
+                    "stop": {
+                        "id": "dcbfe731-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Turin (Vittorio Emanuele)",
+                        "description": "",
+                        "city": {
+                            "id": "40deee02-8646-11e6-9066-549f350fcb0c",
+                            "name": "Turin"
+                        },
+                        "code": "TO",
+                        "location": {
+                            "latitude": 45.07016,
+                            "longitude": 7.657706
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T05:35:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T05:45:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 10,
+                    "stop": {
+                        "id": "9fe81919-2d89-48f4-81a3-322dc4b5614d",
+                        "type": "BUS",
+                        "timezone": "Europe/Paris",
+                        "name": "Lyon (Gerland Bus Station)",
+                        "description": "Since January 12th of 2026, the FlixBus stop in Lyon is relocated at Gerland station.",
+                        "city": {
+                            "id": "40df89c1-8646-11e6-9066-549f350fcb0c",
+                            "name": "Lyon"
+                        },
+                        "code": "LYON",
+                        "location": {
+                            "latitude": 45.726184,
+                            "longitude": 4.828142
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T10:00:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": null
+                }
+            ],
+            "vehicle": {
+                "id": "2de465d7-1bba-4ecf-b67d-bf1723912f33",
+                "license_plate": null,
+                "type": "BUS"
+            }
+        },
+        {
+            "id": "1c8bc5f2-1301-43e0-922a-b0036c1b3642",
+            "status": {
+                "segment": null,
+                "next_stop_sequence": null,
+                "has_arrived_at_next_stop": false,
+                "progress": null,
+                "deviation": {
+                    "deviation_timestamp": "2026-05-22T04:10:00Z",
+                    "deviation_seconds": 0,
+                    "reason": null,
+                    "deviation_class": "ON_TIME",
+                    "deviation_type": "ESTIMATED",
+                    "updated_at": "2026-05-21T21:10:53Z"
+                },
+                "scheduled_timestamp": "2026-05-22T04:10:00Z"
+            },
+            "platform": null,
+            "line": {
+                "code": "XN525",
+                "direction": "Turin (Vittorio Emanuele)",
+                "name": "Express Torino - Milan - Naples - Salerno",
+                "trip_number": 2,
+                "means_of_transport": "BUS",
+                "brand": {
+                    "id": "a18f138c-68fa-4b45-a42f-adb0378e10d3",
+                    "name": "FlixBus"
+                }
+            },
+            "location": null,
+            "calls": [
+                {
+                    "sequence": 1,
+                    "stop": {
+                        "id": "dcc31543-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Salerno (Piazza Concordia)",
+                        "description": "",
+                        "city": {
+                            "id": "40e1c543-8646-11e6-9066-549f350fcb0c",
+                            "name": "Salerno"
+                        },
+                        "code": "SA",
+                        "location": {
+                            "latitude": 40.673844,
+                            "longitude": 14.770179
+                        }
+                    },
+                    "arrival": null,
+                    "departure": {
+                        "scheduled": "2026-05-21T18:00:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 2,
+                    "stop": {
+                        "id": "dcc19a38-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Naples (FS Park Stazione Centrale)",
+                        "description": "",
+                        "city": {
+                            "id": "40e096c1-8646-11e6-9066-549f350fcb0c",
+                            "name": "Naples"
+                        },
+                        "code": "NAP",
+                        "location": {
+                            "latitude": 40.850931,
+                            "longitude": 14.273617
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-21T18:55:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-21T19:05:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 3,
+                    "stop": {
+                        "id": "dcbc484a-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Milan (Lampugnano bus station)",
+                        "description": "Platform B",
+                        "city": {
+                            "id": "40ddcc6e-8646-11e6-9066-549f350fcb0c",
+                            "name": "Milan"
+                        },
+                        "code": "MIO",
+                        "location": {
+                            "latitude": 45.489719,
+                            "longitude": 9.127528
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T04:05:00Z",
+                        "deviation": {
+                            "deviation_timestamp": "2026-05-22T04:04:30Z",
+                            "deviation_seconds": -30,
+                            "reason": null,
+                            "deviation_class": "ON_TIME",
+                            "deviation_type": "ESTIMATED",
+                            "updated_at": "2026-05-21T21:10:53Z"
+                        },
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T04:10:00Z",
+                        "deviation": {
+                            "deviation_timestamp": "2026-05-22T04:10:00Z",
+                            "deviation_seconds": 0,
+                            "reason": null,
+                            "deviation_class": "ON_TIME",
+                            "deviation_type": "ESTIMATED",
+                            "updated_at": "2026-05-21T21:10:53Z"
+                        },
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 4,
+                    "stop": {
+                        "id": "dcbfe731-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Turin (Vittorio Emanuele)",
+                        "description": "",
+                        "city": {
+                            "id": "40deee02-8646-11e6-9066-549f350fcb0c",
+                            "name": "Turin"
+                        },
+                        "code": "TO",
+                        "location": {
+                            "latitude": 45.07016,
+                            "longitude": 7.657706
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T06:00:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": null
+                }
+            ],
+            "vehicle": {
+                "id": "2f76ec39-159e-4953-9220-2ffcbbe1b66b",
+                "license_plate": null,
+                "type": "BUS"
+            }
+        },
+        {
+            "id": "8a7edb8a-62a1-427b-abc6-1fcfff89158b",
+            "status": {
+                "segment": null,
+                "next_stop_sequence": null,
+                "has_arrived_at_next_stop": null,
+                "progress": null,
+                "deviation": null,
+                "scheduled_timestamp": "2026-05-22T04:15:00Z"
+            },
+            "platform": null,
+            "line": {
+                "code": "479",
+                "direction": "Paris (Pershing - Porte Maillot)",
+                "name": "Paris - Geneva - Milan",
+                "trip_number": 3,
+                "means_of_transport": "BUS",
+                "brand": {
+                    "id": "a18f138c-68fa-4b45-a42f-adb0378e10d3",
+                    "name": "FlixBus"
+                }
+            },
+            "location": null,
+            "calls": [
+                {
+                    "sequence": 1,
+                    "stop": {
+                        "id": "dcbc484a-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Milan (Lampugnano bus station)",
+                        "description": "Platform B",
+                        "city": {
+                            "id": "40ddcc6e-8646-11e6-9066-549f350fcb0c",
+                            "name": "Milan"
+                        },
+                        "code": "MIO",
+                        "location": {
+                            "latitude": 45.489719,
+                            "longitude": 9.127528
+                        }
+                    },
+                    "arrival": null,
+                    "departure": {
+                        "scheduled": "2026-05-22T04:15:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 2,
+                    "stop": {
+                        "id": "dcc47678-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Aosta",
+                        "description": "",
+                        "city": {
+                            "id": "40e2b92f-8646-11e6-9066-549f350fcb0c",
+                            "name": "Aosta"
+                        },
+                        "code": "AOT",
+                        "location": {
+                            "latitude": 45.735249,
+                            "longitude": 7.324412
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T06:25:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T06:30:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 3,
+                    "stop": {
+                        "id": "dcc47766-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Courmayeur",
+                        "description": "",
+                        "city": {
+                            "id": "40e2b876-8646-11e6-9066-549f350fcb0c",
+                            "name": "Courmayeur"
+                        },
+                        "code": "CMY",
+                        "location": {
+                            "latitude": 45.791382,
+                            "longitude": 6.970375
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T07:10:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T07:15:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 4,
+                    "stop": {
+                        "id": "87e7ff8e-5026-4fb1-8241-7e3e2debbeda",
+                        "type": "BUS",
+                        "timezone": "Europe/Paris",
+                        "name": "Chamonix",
+                        "description": "",
+                        "city": {
+                            "id": "5e3178b2-bd1f-41a6-b5a0-a24c53e9e718",
+                            "name": "Chamonix-Mont-Blanc"
+                        },
+                        "code": "CMX",
+                        "location": {
+                            "latitude": 45.917132,
+                            "longitude": 6.867276
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T08:10:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T08:15:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 5,
+                    "stop": {
+                        "id": "dcc0627e-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Zurich",
+                        "name": "Geneva (central bus station)",
+                        "description": "",
+                        "city": {
+                            "id": "40df585b-8646-11e6-9066-549f350fcb0c",
+                            "name": "Geneva"
+                        },
+                        "code": "GEN",
+                        "location": {
+                            "latitude": 46.20852221638026,
+                            "longitude": 6.1469282144707
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T09:45:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T09:55:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 6,
+                    "stop": {
+                        "id": "dcc05da5-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Zurich",
+                        "name": "Lausanne (P+R V\u00e9lodrome)",
+                        "description": "",
+                        "city": {
+                            "id": "40df48fd-8646-11e6-9066-549f350fcb0c",
+                            "name": "Lausanne"
+                        },
+                        "code": "LAU",
+                        "location": {
+                            "latitude": 46.536324,
+                            "longitude": 6.623189
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T10:55:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T11:00:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 7,
+                    "stop": {
+                        "id": "dcbd8ba2-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Paris",
+                        "name": "Paris (Pershing - Porte Maillot)",
+                        "description": "Station is located between Palais des Congr\u00e8s and the ring road (P\u00e9riph\u00e9rique). \nSince December 2025, some departures and arrivals in Paris will be operated from Pershing bus station at Porte Maillot. Your platform of departure on : https://bit.ly/4qmXEue",
+                        "city": {
+                            "id": "40de8964-8646-11e6-9066-549f350fcb0c",
+                            "name": "Paris"
+                        },
+                        "code": "PPM",
+                        "location": {
+                            "latitude": 48.880207,
+                            "longitude": 2.282533
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T18:10:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": null
+                }
+            ],
+            "vehicle": {
+                "id": "92b74490-7d37-4c45-9bd3-64d2d39ded73",
+                "license_plate": null,
+                "type": "BUS"
+            }
+        },
+        {
+            "id": "1a27b04b-78bd-4613-a043-a1ce38fafd83",
+            "status": {
+                "segment": null,
+                "next_stop_sequence": null,
+                "has_arrived_at_next_stop": null,
+                "progress": null,
+                "deviation": null,
+                "scheduled_timestamp": "2026-05-22T04:15:00Z"
+            },
+            "platform": null,
+            "line": {
+                "code": "520",
+                "direction": "Rome Tiburtina Bus station",
+                "name": "Milan - Florence - Rome",
+                "trip_number": 92,
+                "means_of_transport": "BUS",
+                "brand": {
+                    "id": "a18f138c-68fa-4b45-a42f-adb0378e10d3",
+                    "name": "FlixBus"
+                }
+            },
+            "location": null,
+            "calls": [
+                {
+                    "sequence": 1,
+                    "stop": {
+                        "id": "dcbc484a-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Milan (Lampugnano bus station)",
+                        "description": "Platform B",
+                        "city": {
+                            "id": "40ddcc6e-8646-11e6-9066-549f350fcb0c",
+                            "name": "Milan"
+                        },
+                        "code": "MIO",
+                        "location": {
+                            "latitude": 45.489719,
+                            "longitude": 9.127528
+                        }
+                    },
+                    "arrival": null,
+                    "departure": {
+                        "scheduled": "2026-05-22T04:15:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 2,
+                    "stop": {
+                        "id": "dcc455fa-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Milan (San Donato M3)",
+                        "description": "",
+                        "city": {
+                            "id": "40ddcc6e-8646-11e6-9066-549f350fcb0c",
+                            "name": "Milan"
+                        },
+                        "code": "MSD",
+                        "location": {
+                            "latitude": 45.428762,
+                            "longitude": 9.254449
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T04:45:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T04:50:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 3,
+                    "stop": {
+                        "id": "dcc03216-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Bologna (central bus station)",
+                        "description": "",
+                        "city": {
+                            "id": "40df3653-8646-11e6-9066-549f350fcb0c",
+                            "name": "Bologna"
+                        },
+                        "code": "BOL",
+                        "location": {
+                            "latitude": 44.50399,
+                            "longitude": 11.346852
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T07:35:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T07:45:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 4,
+                    "stop": {
+                        "id": "dcc2789b-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Siena (Stazione FS)",
+                        "description": "",
+                        "city": {
+                            "id": "40e10ab9-8646-11e6-9066-549f350fcb0c",
+                            "name": "Siena"
+                        },
+                        "code": "SIE",
+                        "location": {
+                            "latitude": 43.331378,
+                            "longitude": 11.323178
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T10:30:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": {
+                        "scheduled": "2026-05-22T10:40:00Z",
+                        "deviation": null,
+                        "platform": null
+                    }
+                },
+                {
+                    "sequence": 5,
+                    "stop": {
+                        "id": "dcbd9538-9603-11e6-9066-549f350fcb0c",
+                        "type": "BUS",
+                        "timezone": "Europe/Rome",
+                        "name": "Rome Tiburtina Bus station",
+                        "description": "",
+                        "city": {
+                            "id": "40de90ff-8646-11e6-9066-549f350fcb0c",
+                            "name": "Rome"
+                        },
+                        "code": "ROM",
+                        "location": {
+                            "latitude": 41.909362,
+                            "longitude": 12.528317
+                        }
+                    },
+                    "arrival": {
+                        "scheduled": "2026-05-22T13:20:00Z",
+                        "deviation": null,
+                        "platform": null
+                    },
+                    "departure": null
+                }
+            ],
+            "vehicle": null
+        }
+    ],
+    "station": {
+        "id": "dcbc484a-9603-11e6-9066-549f350fcb0c",
+        "name": "Milan (Lampugnano bus station)",
+        "timezone": "Europe/Rome",
+        "description": "Platform B",
+        "coordinates": {
+            "latitude": 45.489719,
+            "longitude": 9.127528
+        }
+    },
+    "snapshot_time": "2026-05-22T00:19:22"
+}
